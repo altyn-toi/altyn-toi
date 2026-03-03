@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, { once: true });
 
     // Таймер обратного отсчета
-    const endDate = new Date("2025-07-12T00:00:00").getTime();
+    const endDate = new Date("2026-05-09T00:00:00").getTime();
 
     function updateCountdown() {
         const now = new Date().getTime();
@@ -139,4 +139,5 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     });
+
 });
