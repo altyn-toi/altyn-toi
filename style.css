@@ -837,7 +837,7 @@ input[type="text"] {
         margin-top: -100px;
         width: 100%;
     }
-    .flora1 img { width: 180px; }
+    .flora1 img { width: 220px; }
     .flora2 img { width: 180px; }
     .flora3 img { width: 200px; }
     
@@ -880,9 +880,9 @@ input[type="text"] {
         left: 50%;
         transform: translateX(-50%);
     }
-    .flora3 img { width: 250px; }
+    .flora3 img { width: 300px; }
 
-    .data {
+    .data {      
         top: 185%;
         left: 50%;
         transform: translateX(-50%);
@@ -1047,6 +1047,7 @@ input[type="text"] {
     }
 
 }
+
 
 
 
