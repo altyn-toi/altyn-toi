@@ -206,7 +206,7 @@ body, html {
 /* Стили текста */
 .short {
     font-family: 'EBGaramond-MediumItalic', cursive;
-    color: #a82424;
+    color: #751999 ;
     margin: 0;
     font-size: 5vw;
 }
@@ -226,7 +226,7 @@ body, html {
 /* Стили текста */
 .short_1 {
     font-family: 'EBGaramond-MediumItalic', cursive;
-    color: #a82424;
+    color: #751999;
     margin: 0;
     font-size: 5vw;
 }
@@ -405,7 +405,7 @@ body, html {
     right: 2px;
     width: 13px;
     height: 13px;
-    background: #a82424;
+    background: #751999;
     border-radius: 50%;
     opacity: 0;
     transition: opacity 0.3s;
@@ -426,7 +426,7 @@ body, html {
     z-index: 5;
 }
 .time .time-box {
-    background-color: #a82424;
+    background-color: #751999;
     color: white;
     text-align: center;
     border-radius: 12px;
@@ -569,14 +569,14 @@ body, html {
 }
 
 .container h2 {
-    color: #a82424;
+    color: #751999;
     font-family: 'EBGaramond-MediumItalic', cursive;
     margin-bottom: 3%;
     font-size: 5vw;
 }
 
 .container p {
-    color: #a82424;
+    color: #751999;
     font-family: 'EBGaramond-MediumItalic', cursive;
     margin-bottom: 1%;
     font-size: 4vw;
@@ -607,7 +607,7 @@ input[type="text"] {
 
 .send-btn {
     padding: 3% 5%;
-    background-color: #a82424;
+    background-color: #751999;
     color: white;
     border: none;
     border-radius: 2vw;
@@ -618,7 +618,7 @@ input[type="text"] {
 }
 
 .send-btn:hover {
-    background-color: #8a1d1d;
+    background-color: #681787;
 }
 
 /* Модальды терезе */
@@ -698,7 +698,7 @@ input[type="text"] {
 /* Стили текста */
 .photos {
     font-family: 'EBGaramond-MediumItalic', cursive;
-    color: #a82424;
+    color: #751999;
     font-size: 6vw;
     line-height: 0.2;
 }
@@ -1045,4 +1045,5 @@ input[type="text"] {
         left: 50%;
         transform: translateX(-50%);
     }
+
 }
