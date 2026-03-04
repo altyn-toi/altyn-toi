@@ -169,7 +169,7 @@ body, html {
     z-index: 5;
 }
 .age img {
-    width: 240px;
+    width: 290px;
     height: auto;
     transform: rotate(0deg);
     opacity: 0;
@@ -840,8 +840,13 @@ input[type="text"] {
     .flora1 img { width: 220px; }
     .flora2 img { width: 180px; }
     .flora3 img { width: 200px; }
-    
+    .age img {
+        width: 290px;
+        height: auto;
+        
     .altyn img{
+        width: 250px;
+        height: auto;
         bottom: 20%;
         left: 50%;
     }
@@ -1047,6 +1052,7 @@ input[type="text"] {
     }
 
 }
+
 
 
 
