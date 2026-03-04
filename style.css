@@ -302,8 +302,8 @@ body, html {
 
 .shar {
     position: absolute;
-    top: 38%;  /* Позиция над цифрой 12 */
-    left: 23%;
+    top: 30%;  /* Позиция над цифрой 12 */
+    left: 25%;
     width: 30px;
     animation: heartBeat 2s ease-in-out infinite;
     z-index: 10;
@@ -1047,5 +1047,6 @@ input[type="text"] {
     }
 
 }
+
 
 
