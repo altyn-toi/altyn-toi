@@ -729,7 +729,7 @@ input[type="text"] {
 }
 .channel-btn {
     padding: 10px 20px;
-    background-color: #a82424;
+    background-color: #751999;
     color: white;
     border: none;
     border-radius: 35px;
@@ -740,7 +740,7 @@ input[type="text"] {
 }
 
 .channel-btn:hover {
-    background-color: #8a1d1d;
+    background-color: #681787;
 }
 
 .invitation {
@@ -1047,3 +1047,4 @@ input[type="text"] {
     }
 
 }
+
