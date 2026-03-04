@@ -112,7 +112,7 @@ body, html {
 }
 
 .flora1 img {
-    width: 200px;
+    width: 300px;
     height: auto;
     transform: rotate(90deg);
     opacity: 0;
@@ -1047,4 +1047,5 @@ input[type="text"] {
     }
 
 }
+
 
