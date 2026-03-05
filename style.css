@@ -1,236 +1,6 @@
-/* Базовые стили */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
-}
-
-.main-container {
-    position: relative;
-    min-height: 100%;
-}
-
-/* Первый фон */
-.background-main {
-    position: relative;
-    width: 99%;
-    height: 100vh;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: 4;
-    margin-top: 0px;
-}
-
-/* Второй фон */
-.background-two {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: 3;
-    margin-top: 0px;
-}
-
-/* Третий фон */
-.background-three {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: 2;
-    margin-top: 0px;
-}
-/* Четвертый фон */
-.background-four {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-    margin-top: 0px;
-}
-/* пятый фон */
-.background-five {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    margin-top: 0px;
-}
-/* шестой фон */
-.background-six {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    margin-top: 0px;
-}
-/* седьмой фон */
-.background-seven {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    margin-top: 0px;
-}
-/* седьмой фон */
-.background-eight {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-    margin-top: 0px;
-}
-/* Остальные стили остаются без изменений */
-/* Декоративные элементы */
-.flora1 {
-    position: absolute;
-    top: -10px;
-    right: -25px;
-    z-index: 5;
-}
-
-.flora1 img {
-    width: 300px;
-    height: auto;
-    transform: rotate(90deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
-}
-
-.flora2 {
-    position: absolute;
-    bottom: 10px;
-    left: -50px;
-    z-index: 5;
-}
-
-.flora2 img {
-    width: 180px;
-    height: auto;
-    transform: rotate(90deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.6s forwards;
-}
-.flora3 {
-    position: absolute;
-    top: 165%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
-
-.flora3 img {
-    width: 200px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
-}
-
-.altyn {
-    position: absolute;
-    top: 16%;
-    right:12%;
-    z-index: 5;
-}
-.altyn img {
-    width: 280px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
-}
-.age {
-    position: absolute;
-    top: 28%;
-    right:12%;
-    z-index: 5;
-}
-.age img {
-    width: 290px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
-}
-.arrow {
-    position: absolute;
-    bottom: 20px;
-    left: 100px;
-    z-index: 5;
-}
-
-.arrow img {
-    width: 100px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards, bounce 1.5s ease-in-out infinite;
-    animation-delay: 0.6s, 1.6s;
-}
-
-.short {
-    position: absolute;
-    top: 96%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 4;
-    width: 500%;
-    max-width: 600px;
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.9s forwards;
-}
-/* Стили текста */
-.short {
-    font-family: 'EBGaramond-MediumItalic', cursive;
-    color: #751999 ;
-    margin: 0;
-    font-size: 5vw;
-}
-
-.short_1 {
-    position: absolute;
-    top: 100%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 4;
-    width: 500%;
-    max-width: 600px;
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.9s forwards;
-}
-/* Стили текста */
-.short_1 {
-    font-family: 'EBGaramond-MediumItalic', cursive;
-    color: #751999;
-    margin: 0;
-    font-size: 5vw;
-}
-
+/* ===========================
+   ШРИФТЫ
+=========================== */
 @font-face {
     font-family: 'EBGaramond-MediumItalic';
     src: url('fonts/EBGaramond-MediumItalic.ttf') format('truetype');
@@ -240,136 +10,66 @@ body, html {
     src: url('fonts/kzbalmoral_regular.ttf') format('truetype');
 }
 
-.text {
-    position: absolute;
-    top: 105%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
-.text img {
-    width: 340px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+/* ===========================
+   БАЗОВЫЕ СТИЛИ
+=========================== */
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
-.data {
-    position: absolute;
-    top: 200%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
-.data img {
-    width: 280px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
-.data12 {
-    position: absolute;
-    top: 235%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
-.data12 img {
-    width: 280px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
-}
-
-/* Стили для календаря и шара */
-.kalendar-container {
-    position: absolute;
-    top: 245%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
-
-.kalendar {
-    width: 300px;
-    height: auto;
+.main-container {
     position: relative;
+    width: 100%;
 }
 
-.shar {
-    position: absolute;
-    top: 30%;  /* Позиция над цифрой 12 */
-    left: 25%;
-    width: 30px;
-    animation: heartBeat 2s ease-in-out infinite;
-    z-index: 10;
+/* ===========================
+   ФОНЫ
+=========================== */
+.background-main,
+.background-two,
+.background-three,
+.background-four,
+.background-five,
+.background-six,
+.background-seven,
+.background-eight {
+    position: relative;
+    width: 100%;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
 }
 
-.do {
-    position: absolute;
-    top: 285%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
-.do img {
-    width: 280px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
-}
+.background-main  { min-height: 100vh; justify-content: flex-end; padding-bottom: 60px; }
+.background-two   { min-height: 600px; }
+.background-three { min-height: 600px; }
+.background-four  { min-height: 600px; }
+.background-five  { min-height: 600px; }
+.background-six   { min-height: 600px; }
+.background-seven { min-height: 600px; }
+.background-eight { min-height: 200px; }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(10px);
-    }
-    60% {
-      transform: translateY(5px);
-    }
-  }
-/* Анимации */
-@keyframes heartBeat {
-    0% { transform: scale(1); opacity: 0.8; }
-    50% { transform: scale(1.2); opacity: 1; }
-    100% { transform: scale(1); opacity: 0.8; }
-}
-@keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0) rotate(0deg);
-    }
-    50% {
-        transform: translateY(-20px) rotate(5deg);
-    }
-}
-@keyframes circle {
-    0% { transform: translate(0, 0); }
-    25% { transform: translate(20px, -20px); }
-    50% { transform: translate(0, -40px); }
-    75% { transform: translate(-20px, -20px); }
-    100% { transform: translate(0, 0); }
-}
+/* ===========================
+   BACKGROUND-MAIN
+=========================== */
 
 /* Музыкальная кнопка */
 .music-btn {
     position: absolute;
-    bottom: 180px;
-    left: 80px;
+    bottom: 120px;
+    left: 40px;
     width: 80px;
     height: 80px;
     border: none;
@@ -377,8 +77,8 @@ body, html {
     cursor: pointer;
     z-index: 6;
     padding: 0;
-    animation: fadeIn 1.5s ease-in-out 0.9s forwards;
     opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.9s forwards;
 }
 .music-base {
     position: absolute;
@@ -415,14 +115,204 @@ body, html {
     opacity: 1;
 }
 
+/* Altyn и Age — в правом верхнем углу */
+.altyn {
+    position: absolute;
+    top: 25%;
+    right: -5%;
+    z-index: 5;
+}
+.altyn img {
+    width: 400px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
+.age {
+    position: absolute;
+    top: 28%;
+    right: 18%;
+    z-index: 5;
+}
+.age img {
+    width: 300px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
+/* Flora 1 — правый верхний угол */
+.flora1 {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    z-index: 5;
+}
+.flora1 img {
+    width: 300px;
+    height: auto;
+    transform: rotate(90deg);
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
+/* Flora 2 — левый нижний угол */
+.flora2 {
+    position: absolute;
+    bottom: -20px;
+    left: -50px;
+    z-index: 5;
+}
+.flora2 img {
+    width: 180px;
+    height: auto;
+    transform: rotate(90deg);
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.6s forwards;
+}
+
+/* Стрелка */
+.arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    z-index: 5;
+    margin-bottom: 10px;
+}
+.arrow img {
+    width: 100px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out 0.6s forwards, bounce 1.5s ease-in-out 1.6s infinite;
+}
+
+/* Тексты "төмен түсіңіз" */
+.short {
+    position: absolute;
+    bottom: 20px;
+    left: 105px;
+    z-index: 4;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.9s forwards;
+    font-family: 'EBGaramond-MediumItalic', cursive;
+    color: #751999;
+    font-size: 5vw;
+    margin: 0;
+}
+.short_1 {
+    position: absolute;
+    bottom: -10px;
+    left: 105px;
+    z-index: 4;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.9s forwards;
+    font-family: 'EBGaramond-MediumItalic', cursive;
+    color: #751999;
+    font-size: 5vw;
+    margin: 0 0 10px;
+}
+
+/* ===========================
+   BACKGROUND-TWO
+=========================== */
+.text img {
+    width: 340px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
+.flora3 {
+    margin-top: 20px;
+}
+.flora3 img {
+    width: 200px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
+.dress img {
+    width: 300px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
+/* ===========================
+   BACKGROUND-THREE
+=========================== */
+.flora30 {
+    margin-top: -60px;
+}
+.flora30 img {
+    width: 220px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
+.data {
+    margin-top: 0px;
+}
+.data img {
+    width: 280px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
+.data12 {
+    margin-top: 5px;
+}
+.data12 img {
+    width: 280px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
+/* Календарь */
+.kalendar-container {
+    position: relative;
+    margin-top: 0px;
+    display: inline-block;
+}
+.kalendar {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+.shar {
+    position: absolute;
+    top: 35px;
+    left: 185px;
+    width: 30px;
+    animation: heartBeat 2s ease-in-out infinite;
+    z-index: 10;
+}
+
+/* ===========================
+   BACKGROUND-FOUR
+=========================== */
+.do {
+    margin-top: 0px;
+}
+.do img {
+    width: 280px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
 /* Таймер */
 .time {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
+    margin: 40px auto;
     z-index: 5;
 }
 .time .time-box {
@@ -430,8 +320,8 @@ body, html {
     color: white;
     text-align: center;
     border-radius: 12px;
-    padding: 30px;
-    width: 100px;
+    padding: 20px 15px;
+    min-width: 80px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 .time .time-box span {
@@ -440,188 +330,152 @@ body, html {
     font-family: 'EBGaramond-MediumItalic', cursive;
 }
 .time .time-box p {
-    margin-top: 10px;
-    font-size: 18px;
+    margin: 8px 0 0;
+    font-size: 14px;
     letter-spacing: 1px;
     font-family: 'EBGaramond-MediumItalic', cursive;
 }
-.flora4 {
-    position: absolute;
-    top: 300%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-}
 
+.flora4 {
+    margin-top: 10px;
+}
 .flora4 img {
     width: 250px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
-.location {
-    position: absolute;
-    top: 355%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
+/* ===========================
+   BACKGROUND-FIVE
+=========================== */
 .location img {
     width: 280px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
-/* Кнопка GIS */
 .button-container {
-    position: absolute;
-    top: 390%;
-    left: 0;
-    width: 100%;
+    margin-top: 10px;
     text-align: center;
-    z-index: 20;
 }
-
-.button-gis {
-    display: inline-block;
-    cursor: pointer;
-    z-index: 21;
-}
-
 .button-gis img {
     width: 120px;
     height: auto;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
 }
-
 .button-gis:hover img {
     transform: scale(1.1);
 }
 
 .boss {
-    position: absolute;
-    top: 405%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
+    margin-top: 15px;
 }
 .boss img {
     width: 280px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 .ball {
-    position: absolute;
-    top: 425%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
+    margin-top: 20px;
 }
 .ball img {
     width: 280px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
-    animation:
-        fadeIn 1.5s ease-in-out 0.3s forwards,
-        circle 2.5s ease-in-out infinite;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards, circle 2.5s ease-in-out infinite;
 }
-.confirmation {
-    position: absolute;
-    top: 415%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
+
+/* ===========================
+   BACKGROUND-SIX
+=========================== */
 .confirmation img {
     width: 350px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 .form-container {
-    position: absolute;
-    top: 440%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-    width: 95%; /* увеличил ширину */
+    width: 100%;
+    max-width: 420px;
+    margin-top: 25px;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
-
 .container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 5%; /* вместо фиксированных px — проценты */
-    border-radius: 2vw;
-    box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.103);
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     text-align: center;
+    background: rgba(255,255,255,0.6);
 }
-
 .container h2 {
     color: #751999;
     font-family: 'EBGaramond-MediumItalic', cursive;
-    margin-bottom: 3%;
+    margin-bottom: 15px;
     font-size: 5vw;
 }
-
 .container p {
     color: #751999;
     font-family: 'EBGaramond-MediumItalic', cursive;
-    margin-bottom: 1%;
+    margin-bottom: 5px;
     font-size: 4vw;
-    line-height: 0.4;
+    line-height: 1.4;
 }
 
 input[type="text"] {
-    padding: 3%;
-    width: 95%;
-    margin-bottom: 3%;
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 2vw;
+    border-radius: 12px;
     font-family: 'EBGaramond-MediumItalic', cursive;
     font-size: 4vw;
 }
 
 .radio-group {
     text-align: left;
-    margin: 4% 0;
+    margin: 15px 0;
     font-family: 'EBGaramond-MediumItalic', cursive;
     font-size: 4vw;
 }
-
 .radio-group label {
     display: block;
-    margin-bottom: 3%;
+    margin-bottom: 10px;
 }
 
 .send-btn {
-    padding: 3% 5%;
+    padding: 12px 30px;
     background-color: #751999;
     color: white;
     border: none;
-    border-radius: 2vw;
+    border-radius: 12px;
     cursor: pointer;
     font-size: 4.5vw;
     font-family: 'EBGaramond-MediumItalic', cursive;
     transition: background-color 0.3s;
 }
-
 .send-btn:hover {
     background-color: #681787;
 }
 
-/* Модальды терезе */
+.flora5 {
+    margin-top: 30px;
+}
+.flora5 img {
+    width: 240px;
+    height: auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
+}
+
+/* ===========================
+   МОДАЛЬ
+=========================== */
 .modal {
     display: none;
     position: fixed;
@@ -630,11 +484,9 @@ input[type="text"] {
     top: 0;
     width: 100%;
     height: 100%;
-    overflow: auto;
     background-color: rgba(0,0,0,0.6);
-  }
-
-  .modal-content {
+}
+.modal-content {
     background-color: #fff;
     margin: 15% auto;
     padding: 30px;
@@ -642,87 +494,55 @@ input[type="text"] {
     width: 80%;
     max-width: 400px;
     position: relative;
-  }
-
-  .close-btn {
+}
+.close-btn {
     position: absolute;
     top: 10px;
     right: 15px;
     font-size: 24px;
     cursor: pointer;
-  }
-
-.flora5 {
-    position: absolute;
-    top: 574%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
 }
 
-.flora5 img {
-    width: 240px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
-}
-.photo {
-    position: absolute;
-    top: 610%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
-
+/* ===========================
+   BACKGROUND-SEVEN
+=========================== */
 .photo img {
     width: 300px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 .photos {
-    position: absolute;
-    top: 638%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
-    z-index: 4;
-    width: 500%;
-    max-width: 600px;
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.9s forwards;
-}
-/* Стили текста */
-.photos {
+    margin-top: 20px;
     font-family: 'EBGaramond-MediumItalic', cursive;
     color: #751999;
     font-size: 6vw;
-    line-height: 0.2;
+    line-height: 1.4;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.9s forwards;
+}
+.photos p {
+    margin: 0;
 }
 
-/* Кнопка Telega */
 .button-channel {
-    position: absolute;
-    top: 650%;
-    left: 0%;
-    width: 100%;
+    margin-top: 25px;
     text-align: center;
-    z-index: 20;
 }
-
 .button-telega {
     display: inline-block;
     cursor: pointer;
-    z-index: 21;
+    text-align: center;
+    text-decoration: none;
 }
-
 .button-telega img {
-    width: 100px;
+    width: 80px;
     height: auto;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
 }
 .button-telega:hover img {
     transform: scale(1.1);
@@ -734,322 +554,155 @@ input[type="text"] {
     border: none;
     border-radius: 35px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 4vw;
     font-family: 'EBGaramond-MediumItalic', cursive;
-    transition: background-color 0.3s;
-}
-
-.channel-btn:hover {
-    background-color: #681787;
+    margin-top: 8px;
+    display: inline-block;
 }
 
 .invitation {
-    position: absolute;
-    top: 680%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
+    margin-top: 30px;
 }
 .invitation img {
     width: 300px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
-.ads {
-    position: absolute;
-    top: 680%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
-.ads img {
-    width: 300px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
-}
+
+/* Flora 6 — декоративная, в углу */
 .flora6 {
     position: absolute;
-    top: 670%;
-    left: 0;
-    transform: translateX(-0%);
+    bottom: 20px;
+    right: -20px;
     z-index: 5;
 }
 .flora6 img {
-    width: 200px;
+    width: 180px;
     height: auto;
     transform: rotate(-90deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
-/* Кнопка Telega */
-.ads {
-    position: absolute;
-    top: 650%;
-    left: 0%;
-    width: 100%;
-    text-align: center;
-    z-index: 20;
-}
 
+.ads {
+    margin-top: 30px;
+    text-align: center;
+}
+.insta {
+    font-family: 'EBGaramond-MediumItalic', cursive;
+    font-size: 3.5vw;
+    color: #000;
+    margin: 0 0 5px;
+}
 .button-insta {
     display: inline-block;
     cursor: pointer;
-    z-index: 21;
+    text-decoration: none;
 }
-
-.insta-btn, .insta {
-    padding: 5px 15px; /* Уменьшенные отступы внутри кнопок */
-    margin: 0 -5px; /* Отрицательные внешние отступы для сближения */
+.insta-btn {
+    padding: 8px 20px;
     background-color: transparent;
-    color: rgb(0, 0, 0);
+    color: #000;
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-family: 'EBGaramond-MediumItalic', cursive;
     transition: background-color 0.3s;
+    margin: 0;
 }
-
 .insta-btn:hover {
-    background-color: #a82424;
+    background-color: rgba(168, 36, 36, 0.1);
 }
 
-/* Если нужно разное оформление для .insta-btn и .insta */
-.insta-btn {
-    border-radius: 35px; /* Чуть более скругленные углы */
+/* ===========================
+   АНИМАЦИИ
+=========================== */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(10px); }
+    60% { transform: translateY(5px); }
+}
+@keyframes heartBeat {
+    0%   { transform: scale(1);   opacity: 0.8; }
+    50%  { transform: scale(1.2); opacity: 1;   }
+    100% { transform: scale(1);   opacity: 0.8; }
+}
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+@keyframes circle {
+    0%   { transform: translate(0, 0); }
+    25%  { transform: translate(20px, -20px); }
+    50%  { transform: translate(0, -40px); }
+    75%  { transform: translate(-20px, -20px); }
+    100% { transform: translate(0, 0); }
 }
 
-.insta {
-    border-radius: 30px;
-}
-/* Адаптивные стили */
+/* ===========================
+   АДАПТИВ — только размеры
+=========================== */
 @media (max-width: 500px) {
-    .background-two,
-    .background-three,
-    .background-four,
-    .background-five,
-    .background-six {
-        height: 700px;
-        margin-top: -100px;
-        width: 100%;
-    }
-    .flora1 img { width: 220px; }
-    .flora2 img { width: 180px; }
-    .flora3 img { width: 200px; }
-    .age img {
-        width: 290px;
-        height: auto;
-    }
-        
-    .altyn img {
-        width: 250px;
-        height: auto;
-        bottom: 20%;
-        left: 50%;
-    }
+    .background-main  { padding: 30px 15px; }
+    .background-two { height: 600px; }
+    .background-three { height: 600px; }
+    .background-four { height: 600px; }
+    .background-five { height: 600px; }
+    .background-six { height: 600px; }
+    .background-seven { padding: 30px 15px; }
 
-    .music-btn {
-        width: 70px;
-        height: 70px;
-        bottom: 35%;
-        left: 55px;
-    }
+    /* Картинки */
+    .flora1 img   { width: 200px; }
+    .flora2 img   { width: 165px; }
+    .flora3 img   { width: 220px; }
+    .flora4 img   { width: 220px; }
+    .flora5 img   { width: 220px; }
+    .flora6 img   { width: 220px; }
+    .altyn img    { width: 250px; }
+    .age img      { width: 235px; }
+    .text img     { width: 300px; }
+    .dress img    { width: 240px; }
+    .data img     { width: 240px; }
+    .data12 img   { width: 150px; }
+    .kalendar     { width: 260px; }
+    .shar         { width: 38px; top: 35px; left: 185px; }
+    .do img       { width: 240px; }
+    .flora30 img  { width: 220px; }
+    .location img { width: 280px; }
+    .boss img     { width: 260px; }
+    .ball img     { width: 260px; }
+    .confirmation img { width: 300px; }
+    .photo img    { width: 260px; }
+    .invitation img { width: 260px; }
 
-    .arrow {
-        bottom: 8%;
-        left: 110px;
-    }
-    .arrow img {
-        width: 90px;
-    }
+    .arrow img    { width: 75px; }
 
-    .short {
-        font-size: 1.4rem;
-        top: 92%;
-        left: 150px;
-        width: 100%;
-        max-width: 300px;
-    }
-    .short_1 {
-        font-size: 1.6rem;
-        top: 96%;
-        left: 150px;
-        width: 100%;
-        max-width: 300px;
-    }
-    .flora3 {
-        top: 150%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .flora3 img { width: 300px; }
+    /* Кнопки */
+    .button-gis img   { width: 100px; }
+    .button-telega img { width: 70px; }
+    .music-btn    { width: 65px; height: 65px; bottom: 150px; left: 50px; }
 
-    .data {      
-        top: 185%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .data img {
-        width: 280px;
-    }
-    .data12 {
-        top: 205%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .data12 img {
-        width: 250px;
-    }
+    /* Таймер */
+    .time { gap: 8px; }
+    .time .time-box { min-width: 60px; padding: 12px 8px; }
+    .time .time-box span { font-size: 26px; }
+    .time .time-box p    { font-size: 11px; }
 
-    .kalendar-container {
-        top: 220%;
-    }
-
-    .shar {
-        top: 15%;
-        left: 70%;
-        width: 45px;
-    }
-
-    .kalendar {
-        width: 300px;
-    }
-
-    .do {
-        top: 252%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .do img {
-        width: 280px;
-    }
-
-    .time {
-        top: 276%;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 90%;
-    }
-    .time .time-box {
-        width: 48px;
-        padding: 10px;
-    }
-    .time .time-box span {
-        font-size: 24px;
-    }
-    .time .time-box p {
-        font-size: 13px;
-    }
-    .flora4 {
-        top: 282%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .flora4 img { width: 250px; }
-
-    .location {
-        top: 320%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .location img {
-        width: 320px;
-    }
-    .button-container {
-        top: 360%;
-    }
-    .button-gis img {
-        width: 100px;
-    }
-
-    .boss {
-        top: 380%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .boss img {
-        width: 300px;
-    }
-
-    .ball {
-        top: 410%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .ball img {
-        width: 300px;
-    }
-
-    .confirmation {
-        top: 443%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .confirmation img {
-        width: 350px;
-    }
-    .form-container {
-        top: 470%; /* Подстраиваем под мобильную версию */
-    }
-
-    .container {
-        width: 90%;
-        padding: 20px;
-    }
-
-    input[type="text"] {
-        width: 85%;
-    }
-    .flora5 {
-        top: 520%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .flora5 img {
-        width: 280px;
-    }
-    .photo {
-        top: 560%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .photo img {
-        width: 300px;
-    }
-    .photos {
-        top: 570%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .button-channel {
-        top: 590%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .invitation {
-        top: 620%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .invitation img {
-        width: 300px;
-    }
-    .flora6 {
-        top: 585%;
-        left: 95%;
-        transform: translateX(-50%);
-    }
-    .flora6 img {
-        width: 300px;
-    }
-    .ads {
-        top: 650%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
+    /* Шрифты */
+    .short      { font-size: 6vw; }
+    .short_1    { font-size: 6vw; }
+    .photos     { font-size: 5vw; }
+    .channel-btn { font-size: 4vw; }
+    .insta      { font-size: 3.5vw; }
+    .insta-btn  { font-size: 3.5vw; }
+    .container p { font-size: 4vw; }
+    .radio-group { font-size: 4vw; }
+    .send-btn   { font-size: 5vw; }
+    input[type="text"] { font-size: 4vw; }
 }
