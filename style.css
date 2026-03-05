@@ -843,8 +843,9 @@ input[type="text"] {
     .age img {
         width: 290px;
         height: auto;
+    }
         
-    .altyn img{
+    .altyn img {
         width: 250px;
         height: auto;
         bottom: 20%;
@@ -1052,6 +1053,7 @@ input[type="text"] {
     }
 
 }
+
 
 
 
