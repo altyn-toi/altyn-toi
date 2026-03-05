@@ -91,7 +91,7 @@ body, html {
     z-index: 0;
     margin-top: 0px;
 }
-/* седьмой фон */
+/* восьмой фон */
 .background-eight {
     position: relative;
     width: 100%;
@@ -102,7 +102,7 @@ body, html {
     z-index: 0;
     margin-top: 0px;
 }
-/* Остальные стили остаются без изменений */
+
 /* Декоративные элементы */
 .flora1 {
     position: absolute;
@@ -133,18 +133,17 @@ body, html {
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.6s forwards;
 }
+
 .flora3 {
-    position: absolute;
-    top: 165%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
     z-index: 5;
+    margin: 40px auto 0;
 }
 
 .flora3 img {
     width: 200px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
@@ -152,29 +151,29 @@ body, html {
 .altyn {
     position: absolute;
     top: 16%;
-    right:12%;
+    right: 12%;
     z-index: 5;
 }
 .altyn img {
     width: 280px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
+
 .age {
     position: absolute;
     top: 28%;
-    right:12%;
+    right: 12%;
     z-index: 5;
 }
 .age img {
     width: 290px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
+
 .arrow {
     position: absolute;
     bottom: 20px;
@@ -185,49 +184,37 @@ body, html {
 .arrow img {
     width: 100px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards, bounce 1.5s ease-in-out infinite;
     animation-delay: 0.6s, 1.6s;
 }
 
-.short {
-    position: absolute;
-    top: 96%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 4;
-    width: 500%;
-    max-width: 600px;
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.9s forwards;
-}
 /* Стили текста */
 .short {
+    position: relative;
+    text-align: center;
+    z-index: 4;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto 0;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out 0.9s forwards;
     font-family: 'EBGaramond-MediumItalic', cursive;
-    color: #751999 ;
-    margin: 0;
+    color: #751999;
     font-size: 5vw;
 }
 
 .short_1 {
-    position: absolute;
-    top: 100%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    position: relative;
     text-align: center;
     z-index: 4;
-    width: 500%;
+    width: 100%;
     max-width: 600px;
+    margin: 10px auto 0;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.9s forwards;
-}
-/* Стили текста */
-.short_1 {
     font-family: 'EBGaramond-MediumItalic', cursive;
     color: #751999;
-    margin: 0;
     font-size: 5vw;
 }
 
@@ -241,57 +228,53 @@ body, html {
 }
 
 .text {
-    position: absolute;
-    top: 105%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
     z-index: 5;
+    margin: 30px auto 0;
 }
 .text img {
     width: 340px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 .data {
-    position: absolute;
-    top: 200%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
     z-index: 5;
+    margin: 40px auto 0;
 }
 .data img {
     width: 280px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 .data12 {
-    position: absolute;
-    top: 235%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
     z-index: 5;
+    margin: 20px auto 0;
 }
 .data12 img {
     width: 280px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 /* Стили для календаря и шара */
 .kalendar-container {
-    position: absolute;
-    top: 245%;
+    position: relative;
+    text-align: center;
+    z-index: 5;
+    margin: 30px auto 0;
+    display: inline-block;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 5;
 }
 
 .kalendar {
@@ -302,7 +285,7 @@ body, html {
 
 .shar {
     position: absolute;
-    top: 30%;  /* Позиция над цифрой 12 */
+    top: 30%;
     left: 25%;
     width: 30px;
     animation: heartBeat 2s ease-in-out infinite;
@@ -310,16 +293,14 @@ body, html {
 }
 
 .do {
-    position: absolute;
-    top: 285%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
     z-index: 5;
+    margin: 30px auto 0;
 }
 .do img {
     width: 280px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
@@ -329,17 +310,10 @@ body, html {
     to { opacity: 1; }
 }
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(10px);
-    }
-    60% {
-      transform: translateY(5px);
-    }
-  }
-/* Анимации */
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(10px); }
+    60% { transform: translateY(5px); }
+}
 @keyframes heartBeat {
     0% { transform: scale(1); opacity: 0.8; }
     50% { transform: scale(1.2); opacity: 1; }
@@ -350,12 +324,8 @@ body, html {
     to { transform: rotate(360deg); }
 }
 @keyframes float {
-    0%, 100% {
-        transform: translateY(0) rotate(0deg);
-    }
-    50% {
-        transform: translateY(-20px) rotate(5deg);
-    }
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(5deg); }
 }
 @keyframes circle {
     0% { transform: translate(0, 0); }
@@ -415,15 +385,15 @@ body, html {
     opacity: 1;
 }
 
-/* Таймер */
+/* Таймер — исправлено: relative вместо absolute */
 .time {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    margin: 50px auto;
     display: flex;
+    justify-content: center;
     gap: 15px;
     z-index: 5;
+    flex-wrap: wrap;
 }
 .time .time-box {
     background-color: #751999;
@@ -445,45 +415,40 @@ body, html {
     letter-spacing: 1px;
     font-family: 'EBGaramond-MediumItalic', cursive;
 }
-.flora4 {
-    position: absolute;
-    top: 300%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-}
 
+.flora4 {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    margin: 30px auto 0;
+}
 .flora4 img {
     width: 250px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 .location {
-    position: absolute;
-    top: 355%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
     z-index: 5;
+    margin: 40px auto 0;
 }
 .location img {
     width: 280px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 /* Кнопка GIS */
 .button-container {
-    position: absolute;
-    top: 390%;
-    left: 0;
+    position: relative;
     width: 100%;
     text-align: center;
     z-index: 20;
+    margin: 30px auto 0;
 }
 
 .button-gis {
@@ -491,70 +456,61 @@ body, html {
     cursor: pointer;
     z-index: 21;
 }
-
 .button-gis img {
     width: 120px;
     height: auto;
     transition: all 0.3s ease;
 }
-
 .button-gis:hover img {
     transform: scale(1.1);
 }
 
 .boss {
-    position: absolute;
-    top: 405%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
     z-index: 5;
+    margin: 30px auto 0;
 }
 .boss img {
     width: 280px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 .ball {
-    position: absolute;
-    top: 425%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
     z-index: 5;
+    margin: 30px auto 0;
 }
 .ball img {
     width: 280px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation:
         fadeIn 1.5s ease-in-out 0.3s forwards,
         circle 2.5s ease-in-out infinite;
 }
+
 .confirmation {
-    position: absolute;
-    top: 415%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
     z-index: 5;
+    margin: 30px auto 0;
 }
 .confirmation img {
     width: 350px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 .form-container {
-    position: absolute;
-    top: 440%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    margin: 40px auto 0;
     z-index: 5;
-    width: 95%; /* увеличил ширину */
+    width: 95%;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
@@ -562,7 +518,7 @@ body, html {
 .container {
     max-width: 100%;
     margin: 0 auto;
-    padding: 5%; /* вместо фиксированных px — проценты */
+    padding: 5%;
     border-radius: 2vw;
     box-shadow: 0 0.4vw 1vw rgba(0, 0, 0, 0.103);
     text-align: center;
@@ -621,7 +577,7 @@ input[type="text"] {
     background-color: #681787;
 }
 
-/* Модальды терезе */
+/* Модальное окно */
 .modal {
     display: none;
     position: fixed;
@@ -632,9 +588,9 @@ input[type="text"] {
     height: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.6);
-  }
+}
 
-  .modal-content {
+.modal-content {
     background-color: #fff;
     margin: 15% auto;
     padding: 30px;
@@ -642,61 +598,51 @@ input[type="text"] {
     width: 80%;
     max-width: 400px;
     position: relative;
-  }
+}
 
-  .close-btn {
+.close-btn {
     position: absolute;
     top: 10px;
     right: 15px;
     font-size: 24px;
     cursor: pointer;
-  }
-
-.flora5 {
-    position: absolute;
-    top: 574%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
 }
 
+.flora5 {
+    position: relative;
+    text-align: center;
+    z-index: 5;
+    margin: 40px auto 0;
+}
 .flora5 img {
     width: 240px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
-.photo {
-    position: absolute;
-    top: 610%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
 
+.photo {
+    position: relative;
+    text-align: center;
+    z-index: 5;
+    margin: 30px auto 0;
+}
 .photo img {
     width: 300px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
 .photos {
-    position: absolute;
-    top: 638%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     text-align: center;
     z-index: 4;
-    width: 500%;
+    width: 100%;
     max-width: 600px;
+    margin: 20px auto 0;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.9s forwards;
-}
-/* Стили текста */
-.photos {
     font-family: 'EBGaramond-MediumItalic', cursive;
     color: #751999;
     font-size: 6vw;
@@ -705,12 +651,11 @@ input[type="text"] {
 
 /* Кнопка Telega */
 .button-channel {
-    position: absolute;
-    top: 650%;
-    left: 0%;
+    position: relative;
     width: 100%;
     text-align: center;
     z-index: 20;
+    margin: 30px auto 0;
 }
 
 .button-telega {
@@ -718,7 +663,6 @@ input[type="text"] {
     cursor: pointer;
     z-index: 21;
 }
-
 .button-telega img {
     width: 100px;
     height: auto;
@@ -738,45 +682,27 @@ input[type="text"] {
     font-family: 'EBGaramond-MediumItalic', cursive;
     transition: background-color 0.3s;
 }
-
 .channel-btn:hover {
     background-color: #681787;
 }
 
 .invitation {
-    position: absolute;
-    top: 680%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
     z-index: 5;
+    margin: 30px auto 0;
 }
 .invitation img {
     width: 300px;
     height: auto;
-    transform: rotate(0deg);
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
-.ads {
-    position: absolute;
-    top: 680%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
-}
-.ads img {
-    width: 300px;
-    height: auto;
-    transform: rotate(0deg);
-    opacity: 0;
-    animation: fadeIn 1.5s ease-in-out 0.3s forwards;
-}
+
 .flora6 {
-    position: absolute;
-    top: 670%;
-    left: 0;
-    transform: translateX(-0%);
+    position: relative;
     z-index: 5;
+    margin: 30px 0 0;
 }
 .flora6 img {
     width: 200px;
@@ -785,14 +711,14 @@ input[type="text"] {
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
-/* Кнопка Telega */
+
+/* Блок ads / кнопки insta */
 .ads {
-    position: absolute;
-    top: 650%;
-    left: 0%;
+    position: relative;
     width: 100%;
     text-align: center;
     z-index: 20;
+    margin: 30px auto 0;
 }
 
 .button-insta {
@@ -802,8 +728,8 @@ input[type="text"] {
 }
 
 .insta-btn, .insta {
-    padding: 5px 15px; /* Уменьшенные отступы внутри кнопок */
-    margin: 0 -5px; /* Отрицательные внешние отступы для сближения */
+    padding: 5px 15px;
+    margin: 0 -5px;
     background-color: transparent;
     color: rgb(0, 0, 0);
     border: none;
@@ -818,15 +744,15 @@ input[type="text"] {
     background-color: #a82424;
 }
 
-/* Если нужно разное оформление для .insta-btn и .insta */
 .insta-btn {
-    border-radius: 35px; /* Чуть более скругленные углы */
+    border-radius: 35px;
 }
 
 .insta {
     border-radius: 30px;
 }
-/* Адаптивные стили */
+
+/* Адаптивные стили — только размеры картинок и шрифтов */
 @media (max-width: 500px) {
     .background-two,
     .background-three,
@@ -837,19 +763,18 @@ input[type="text"] {
         margin-top: -100px;
         width: 100%;
     }
+
     .flora1 img { width: 220px; }
     .flora2 img { width: 180px; }
     .flora3 img { width: 200px; }
+
     .age img {
-        width: 290px;
-        height: auto;
-    }
-        
-    .altyn img {
         width: 250px;
         height: auto;
-        bottom: 20%;
-        left: 50%;
+    }
+    .altyn img {
+        width: 220px;
+        height: auto;
     }
 
     .music-btn {
@@ -863,200 +788,67 @@ input[type="text"] {
         bottom: 8%;
         left: 110px;
     }
-    .arrow img {
-        width: 90px;
-    }
+    .arrow img { width: 90px; }
 
     .short {
         font-size: 1.4rem;
-        top: 92%;
-        left: 150px;
         width: 100%;
         max-width: 300px;
     }
     .short_1 {
         font-size: 1.6rem;
-        top: 96%;
-        left: 150px;
         width: 100%;
         max-width: 300px;
     }
-    .flora3 {
-        top: 150%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+
     .flora3 img { width: 300px; }
 
-    .data {      
-        top: 185%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .data img {
-        width: 280px;
-    }
-    .data12 {
-        top: 205%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .data12 img {
-        width: 250px;
-    }
-
-    .kalendar-container {
-        top: 220%;
-    }
+    .data img { width: 280px; }
+    .data12 img { width: 250px; }
 
     .shar {
         top: 15%;
         left: 70%;
         width: 45px;
     }
+    .kalendar { width: 300px; }
 
-    .kalendar {
-        width: 300px;
-    }
+    .do img { width: 280px; }
 
-    .do {
-        top: 252%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .do img {
-        width: 280px;
-    }
-
-    .time {
-        top: 276%;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 90%;
-    }
     .time .time-box {
         width: 48px;
         padding: 10px;
     }
-    .time .time-box span {
-        font-size: 24px;
-    }
-    .time .time-box p {
-        font-size: 13px;
-    }
-    .flora4 {
-        top: 282%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+    .time .time-box span { font-size: 24px; }
+    .time .time-box p { font-size: 13px; }
+
     .flora4 img { width: 250px; }
 
-    .location {
-        top: 320%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .location img {
-        width: 320px;
-    }
-    .button-container {
-        top: 360%;
-    }
-    .button-gis img {
-        width: 100px;
-    }
+    .location img { width: 320px; }
 
-    .boss {
-        top: 380%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .boss img {
-        width: 300px;
-    }
+    .button-gis img { width: 100px; }
 
-    .ball {
-        top: 410%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .ball img {
-        width: 300px;
-    }
+    .boss img { width: 300px; }
+    .ball img { width: 300px; }
 
-    .confirmation {
-        top: 443%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .confirmation img {
-        width: 350px;
-    }
-    .form-container {
-        top: 470%; /* Подстраиваем под мобильную версию */
-    }
+    .confirmation img { width: 350px; }
 
     .container {
         width: 90%;
         padding: 20px;
     }
+    input[type="text"] { width: 85%; }
 
-    input[type="text"] {
-        width: 85%;
-    }
-    .flora5 {
-        top: 520%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .flora5 img {
-        width: 280px;
-    }
-    .photo {
-        top: 560%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .photo img {
-        width: 300px;
-    }
+    .flora5 img { width: 280px; }
+    .photo img { width: 300px; }
+
     .photos {
-        top: 570%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .button-channel {
-        top: 590%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .invitation {
-        top: 620%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .invitation img {
-        width: 300px;
-    }
-    .flora6 {
-        top: 585%;
-        left: 95%;
-        transform: translateX(-50%);
-    }
-    .flora6 img {
-        width: 300px;
-    }
-    .ads {
-        top: 650%;
-        left: 50%;
-        transform: translateX(-50%);
+        font-size: 5vw;
+        width: 100%;
+        max-width: 300px;
     }
 
+    .invitation img { width: 300px; }
+
+    .flora6 img { width: 200px; }
 }
-
-
-
-
-
-
-
