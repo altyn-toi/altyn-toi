@@ -57,7 +57,7 @@ body, html {
 .background-three { min-height: 700px; }
 .background-four  { min-height: 700px; }
 .background-five  { min-height: 700px; }
-.background-six   { min-height: 700px; }
+.background-six   { min-height: 500px; }
 .background-seven { min-height: 700px; }
 .background-eight { min-height: 700px; }
 
@@ -268,7 +268,7 @@ body, html {
    BACKGROUND-FOUR
 =========================== */
 .data12 {
-    margin-top: 5px;
+    margin-top: 0px;
 }
 .data12 img {
     width: 280px;
@@ -280,7 +280,7 @@ body, html {
 /* Календарь */
 .kalendar-container {
     position: relative;
-    margin-top: 0px;
+    margin-top: 5px;
     display: inline-block;
 }
 .kalendar {
@@ -348,7 +348,9 @@ body, html {
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
-
+.location {
+    margin-top: 10px;
+}
 .location img {
     width: 280px;
     height: auto;
@@ -425,7 +427,7 @@ body, html {
    BACKGROUND-SEVEN
 =========================== */
 .confirmation img {
-    width: 350px;
+    width: 320px;
     height: auto;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
