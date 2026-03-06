@@ -52,14 +52,14 @@ body, html {
     padding: 40px 20px;
 }
 
-.background-main  { min-height: 600px; justify-content: flex-end; padding-bottom: 60px; }
-.background-two   { min-height: 600px; }
-.background-three { min-height: 600px; }
-.background-four  { min-height: 600px; }
-.background-five  { min-height: 600px; }
-.background-six   { min-height: 600px; }
-.background-seven { min-height: 600px; }
-.background-eight { min-height: 200px; }
+.background-main  { min-height: 700px; justify-content: flex-end; padding-bottom: 60px; }
+.background-two   { min-height: 700px; }
+.background-three { min-height: 700px; }
+.background-four  { min-height: 700px; }
+.background-five  { min-height: 700px; }
+.background-six   { min-height: 700px; }
+.background-seven { min-height: 700px; }
+.background-eight { min-height: 500px; }
 
 /* ===========================
    BACKGROUND-MAIN
@@ -706,4 +706,5 @@ input[type="text"] {
     .send-btn   { font-size: 5vw; }
     input[type="text"] { font-size: 4vw; }
 }
+
 
