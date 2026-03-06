@@ -238,6 +238,9 @@ body, html {
 /* ===========================
    BACKGROUND-THREE
 =========================== */
+.dress {
+    margin-top: -10px;
+}
 .dress img {
     width: 300px;
     height: auto;
@@ -245,7 +248,7 @@ body, html {
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 .flora30 {
-    margin-top: -60px;
+    margin-top: -10px;
 }
 .flora30 img {
     width: 220px;
@@ -577,8 +580,8 @@ input[type="text"] {
 /* Flora 6 — декоративная, в углу */
 .flora6 {
     position: absolute;
-    bottom: 20px;
-    right: -20px;
+    bottom: -10px;
+    right: -50px;
     z-index: 5;
 }
 .flora6 img {
