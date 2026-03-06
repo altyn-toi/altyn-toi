@@ -175,7 +175,7 @@ body, html {
 /* Стрелка */
 .arrow {
     position: absolute;
-    bottom: 60px;
+    bottom: 40px;
     left: 110px;
     z-index: 5;
     margin-bottom: 10px;
@@ -190,7 +190,7 @@ body, html {
 /* Тексты "төмен түсіңіз" */
 .short {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     left: 105px;
     z-index: 4;
     opacity: 0;
@@ -202,7 +202,7 @@ body, html {
 }
 .short_1 {
     position: absolute;
-    bottom: -10px;
+    bottom: -30px;
     left: 105px;
     z-index: 4;
     opacity: 0;
@@ -233,16 +233,17 @@ body, html {
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
+
+
+/* ===========================
+   BACKGROUND-THREE
+=========================== */
 .dress img {
     width: 300px;
     height: auto;
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
-
-/* ===========================
-   BACKGROUND-THREE
-=========================== */
 .flora30 {
     margin-top: -60px;
 }
@@ -263,6 +264,9 @@ body, html {
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
+/* ===========================
+   BACKGROUND-FOUR
+=========================== */
 .data12 {
     margin-top: 5px;
 }
@@ -292,12 +296,8 @@ body, html {
     animation: heartBeat 2s ease-in-out infinite;
     z-index: 10;
 }
-
-/* ===========================
-   BACKGROUND-FOUR
-=========================== */
 .do {
-    margin-top: 0px;
+    margin-top: 30px;
 }
 .do img {
     width: 280px;
@@ -336,8 +336,11 @@ body, html {
     font-family: 'EBGaramond-MediumItalic', cursive;
 }
 
+/* ===========================
+   BACKGROUND-FIVE
+=========================== */
 .flora4 {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .flora4 img {
     width: 250px;
@@ -346,9 +349,6 @@ body, html {
     animation: fadeIn 1.5s ease-in-out 0.3s forwards;
 }
 
-/* ===========================
-   BACKGROUND-FIVE
-=========================== */
 .location img {
     width: 280px;
     height: auto;
@@ -369,8 +369,11 @@ body, html {
     transform: scale(1.1);
 }
 
+/* ===========================
+   BACKGROUND-SIX
+=========================== */
 .boss {
-    margin-top: 15px;
+    margin-top: 40px;
 }
 .boss img {
     width: 280px;
@@ -380,7 +383,7 @@ body, html {
 }
 
 .ball {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .ball img {
     width: 280px;
@@ -388,9 +391,38 @@ body, html {
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.3s forwards, circle 2.5s ease-in-out infinite;
 }
+/* ===========================
+   МОДАЛЬ
+=========================== */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
 
 /* ===========================
-   BACKGROUND-SIX
+   BACKGROUND-SEVEN
 =========================== */
 .confirmation img {
     width: 350px;
@@ -474,37 +506,7 @@ input[type="text"] {
 }
 
 /* ===========================
-   МОДАЛЬ
-=========================== */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 999;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.6);
-}
-.modal-content {
-    background-color: #fff;
-    margin: 15% auto;
-    padding: 30px;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 400px;
-    position: relative;
-}
-.close-btn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-/* ===========================
-   BACKGROUND-SEVEN
+   BACKGROUND-EIHGT
 =========================== */
 .photo img {
     width: 300px;
@@ -670,10 +672,10 @@ input[type="text"] {
     .dress img    { width: 240px; }
     .data img     { width: 290px; }
     .data12 img   { width: 150px; }
-    .kalendar     { width: 260px; }
-    .shar         { width: 38px; top: 35px; left: 185px; }
+    .kalendar     { width: 300px; }
+    .shar         { width: 38px; top: 45px; left: 220px; }
     .do img       { width: 240px; }
-    .flora30 img  { width: 220px; }
+    .flora30 img  { width: 260px; }
     .location img { width: 280px; }
     .boss img     { width: 260px; }
     .ball img     { width: 260px; }
