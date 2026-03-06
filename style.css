@@ -52,7 +52,7 @@ body, html {
     padding: 40px 20px;
 }
 
-.background-main  { min-height: 100vh; justify-content: flex-end; padding-bottom: 60px; }
+.background-main  { min-height: 600px; justify-content: flex-end; padding-bottom: 60px; }
 .background-two   { min-height: 600px; }
 .background-three { min-height: 600px; }
 .background-four  { min-height: 600px; }
@@ -706,3 +706,4 @@ input[type="text"] {
     .send-btn   { font-size: 5vw; }
     input[type="text"] { font-size: 4vw; }
 }
+
