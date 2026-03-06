@@ -225,8 +225,8 @@ body, html {
 
 .flora3 {
     position: absolute;
-    bottom: 80px;
-    left: 70px;
+    bottom: 70px;
+    left: 65px;
     z-index: 4;
 }
 .flora3 img {
@@ -716,3 +716,4 @@ input[type="text"] {
     .send-btn   { font-size: 5vw; }
     input[type="text"] { font-size: 4vw; }
 }
+
