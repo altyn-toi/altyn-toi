@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, { once: true });
 
     // Таймер обратного отсчета
-    const endDate = new Date("2026-05-09T00:00:00").getTime();
+    const endDate = new Date("2026-08-22T00:00:00").getTime();
 
     function updateCountdown() {
         const now = new Date().getTime();
