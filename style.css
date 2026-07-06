@@ -196,7 +196,7 @@ body, html {
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.9s forwards;
     font-family: 'EBGaramond-MediumItalic', cursive;
-    color: #751999;
+    color: #5FAD96;
     font-size: 5vw;
     margin: 0;
 }
@@ -208,7 +208,7 @@ body, html {
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out 0.9s forwards;
     font-family: 'EBGaramond-MediumItalic', cursive;
-    color: #751999;
+    color: #5FAD96;
     font-size: 5vw;
     margin: 0 0 10px;
 }
@@ -322,7 +322,7 @@ body, html {
     z-index: 5;
 }
 .time .time-box {
-    background-color: #751999;
+    background-color: #5FAD96;
     color: white;
     text-align: center;
     border-radius: 12px;
@@ -454,13 +454,13 @@ body, html {
     background: rgba(255,255,255,0.6);
 }
 .container h2 {
-    color: #751999;
+    color: #5FAD96;
     font-family: 'EBGaramond-MediumItalic', cursive;
     margin-bottom: 15px;
     font-size: 5vw;
 }
 .container p {
-    color: #751999;
+    color: #5FAD96;
     font-family: 'EBGaramond-MediumItalic', cursive;
     margin-bottom: 5px;
     font-size: 4vw;
@@ -490,7 +490,7 @@ input[type="text"] {
 
 .send-btn {
     padding: 12px 30px;
-    background-color: #751999;
+    background-color: #5FAD96;
     color: white;
     border: none;
     border-radius: 12px;
@@ -500,7 +500,7 @@ input[type="text"] {
     transition: background-color 0.3s;
 }
 .send-btn:hover {
-    background-color: #681787;
+    background-color: #5FAD96;
 }
 
 .flora5 {
@@ -527,7 +527,7 @@ input[type="text"] {
     text-align: center;
     margin-top: 20px;
     font-family: 'EBGaramond-MediumItalic', cursive;
-    color: #751999;
+    color: #5FAD96;
     font-size: 6vw;
     line-height: 1.4;
     opacity: 0;
@@ -559,7 +559,7 @@ input[type="text"] {
 }
 .channel-btn {
     padding: 10px 20px;
-    background-color: #751999;
+    background-color: #5FAD96;
     color: white;
     border: none;
     border-radius: 35px;
